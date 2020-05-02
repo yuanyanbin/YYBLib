@@ -33,9 +33,6 @@ public class HttpMapUtil {
         } else {
             netParams.put("token", token); //登录令牌
         }
-//        netParams.put("signature", ""); //请求签名
-//        netParams.put("appChannel", ""); //应用渠道
-//        netParams.put("timestamp", ""); //时间戳
         return netParams;
     }
 
@@ -52,9 +49,6 @@ public class HttpMapUtil {
         } else {
             netParams.put("token", token); //登录令牌
         }
-        //        netParams.put("signature", ""); //请求签名
-//        netParams.put("appChannel", ""); //应用渠道
-//        netParams.put("timestamp", ""); //时间戳
         return netParams;
     }
 }

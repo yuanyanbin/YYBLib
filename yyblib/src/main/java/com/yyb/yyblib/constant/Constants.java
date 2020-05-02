@@ -16,7 +16,7 @@ public class Constants {
     public static final int TYPE_GET = 0;//get请求
     public static final int TYPE_POST_FORM = 2;//post请求参数为表单
     public static final int TYPE_POST_JSON = 1;//post请求参数为json
-    public static final String TOKEN = "token";//
+    public static final String TOKEN = "token_key";//
     public static final MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
 
 
