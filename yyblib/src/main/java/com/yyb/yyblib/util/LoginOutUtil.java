@@ -21,7 +21,7 @@ public class LoginOutUtil {
         Intent it = new Intent();
         it.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         it.putExtra("isTokenSkip", true);
-        it.setAction("com.android.activity.student.LOGIN_ACTION");
+        it.setAction("com.android.activity.login.LOGIN_ACTION");
         context.startActivity(it);
     }
 }

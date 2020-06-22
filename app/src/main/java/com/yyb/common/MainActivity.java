@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.yyb.yyblib.remote.ReqCallBack;
+import com.yyb.yyblib.util.GsonUtil;
 import com.yyb.yyblib.util.LogUtil;
 
 public class MainActivity extends AppCompatActivity {
